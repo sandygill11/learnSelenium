@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-22T19:43:42 EDT" name="Default suite" finished-at="2025-05-22T19:43:52 EDT" duration-ms="9993">
+    <groups>
+    </groups>
+    <test started-at="2025-05-22T19:43:42 EDT" name="Default test" finished-at="2025-05-22T19:43:52 EDT" duration-ms="9993">
+      <class name="mytests.Dropdown">
+        <test-method signature="DropDown()[pri:0, instance:mytests.Dropdown@4d9e68d0]" started-at="2025-05-22T19:43:42 EDT" name="DropDown" finished-at="2025-05-22T19:43:52 EDT" duration-ms="9955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+      </class> <!-- mytests.Dropdown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
