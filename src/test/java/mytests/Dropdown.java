@@ -40,6 +40,7 @@ public class Dropdown {
 		
 		String attributeValue =option1.getDomAttribute("selected");
 		
+		
 		Assert.assertEquals(attributeValue, "true");
 		
 		driver.quit();

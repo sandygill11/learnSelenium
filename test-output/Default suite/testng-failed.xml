@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mytests.Dropdown">
+      <class name="alerts.HandleAlerts">
         <methods>
-          <include name="DropDown"/>
+          <include name="handlejsConfirm"/>
         </methods>
-      </class> <!-- mytests.Dropdown -->
+      </class> <!-- alerts.HandleAlerts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
