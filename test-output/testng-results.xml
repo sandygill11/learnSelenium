@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T16:40:28 EDT" name="Default suite" finished-at="2025-05-24T16:40:38 EDT" duration-ms="9771">
+  <suite started-at="2025-05-26T20:35:50 EDT" name="Default suite" finished-at="2025-05-26T20:36:22 EDT" duration-ms="31517">
     <groups>
     </groups>
-    <test started-at="2025-05-24T16:40:28 EDT" name="Default test" finished-at="2025-05-24T16:40:38 EDT" duration-ms="9771">
-      <class name="alerts.HandleAlerts">
-        <test-method signature="handlejsPrompt()[pri:0, instance:alerts.HandleAlerts@14dd9eb7]" started-at="2025-05-24T16:40:28 EDT" name="handlejsPrompt" finished-at="2025-05-24T16:40:38 EDT" duration-ms="9739" status="PASS">
+    <test started-at="2025-05-26T20:35:50 EDT" name="Default test" finished-at="2025-05-26T20:36:22 EDT" duration-ms="31517">
+      <class name="assignment.CustomerRegistration">
+        <test-method signature="CustomerRegister()[pri:0, instance:assignment.CustomerRegistration@4d9e68d0]" started-at="2025-05-26T20:35:50 EDT" name="CustomerRegister" finished-at="2025-05-26T20:36:22 EDT" duration-ms="31477" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handlejsPrompt -->
-      </class> <!-- alerts.HandleAlerts -->
+        </test-method> <!-- CustomerRegister -->
+      </class> <!-- assignment.CustomerRegistration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
