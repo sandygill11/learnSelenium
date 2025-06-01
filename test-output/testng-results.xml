@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-26T20:35:50 EDT" name="Default suite" finished-at="2025-05-26T20:36:22 EDT" duration-ms="31517">
+  <suite started-at="2025-06-01T09:27:21 EDT" name="Default suite" finished-at="2025-06-01T09:27:46 EDT" duration-ms="24805">
     <groups>
     </groups>
-    <test started-at="2025-05-26T20:35:50 EDT" name="Default test" finished-at="2025-05-26T20:36:22 EDT" duration-ms="31517">
-      <class name="assignment.CustomerRegistration">
-        <test-method signature="CustomerRegister()[pri:0, instance:assignment.CustomerRegistration@4d9e68d0]" started-at="2025-05-26T20:35:50 EDT" name="CustomerRegister" finished-at="2025-05-26T20:36:22 EDT" duration-ms="31477" status="PASS">
+    <test started-at="2025-06-01T09:27:21 EDT" name="Default test" finished-at="2025-06-01T09:27:46 EDT" duration-ms="24805">
+      <class name="assignment.RandomOrbitSander">
+        <test-method signature="OrbitSander()[pri:0, instance:assignment.RandomOrbitSander@4d9e68d0]" started-at="2025-06-01T09:27:21 EDT" name="OrbitSander" finished-at="2025-06-01T09:27:46 EDT" duration-ms="24765" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CustomerRegister -->
-      </class> <!-- assignment.CustomerRegistration -->
+        </test-method> <!-- OrbitSander -->
+      </class> <!-- assignment.RandomOrbitSander -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

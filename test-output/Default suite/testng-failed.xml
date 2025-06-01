@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="alerts.HandleAlerts">
+      <class name="assignment.RandomOrbitSander">
         <methods>
-          <include name="handlejsConfirm"/>
+          <include name="OrbitSander"/>
         </methods>
-      </class> <!-- alerts.HandleAlerts -->
+      </class> <!-- assignment.RandomOrbitSander -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

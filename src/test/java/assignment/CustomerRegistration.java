@@ -45,6 +45,7 @@ public class CustomerRegistration {
 		WebElement city = driver.findElement(By.id("city"));
 		city.sendKeys("North York");
 		
+		
 		WebElement state = driver.findElement(By.id("state"));
 		state.sendKeys("Ontario");
 		
