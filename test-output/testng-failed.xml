@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment.RandomOrbitSander">
+      <class name="mytests.DragAndDrop">
         <methods>
-          <include name="OrbitSander"/>
+          <include name="testDragAndDrop"/>
         </methods>
-      </class> <!-- assignment.RandomOrbitSander -->
+      </class> <!-- mytests.DragAndDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

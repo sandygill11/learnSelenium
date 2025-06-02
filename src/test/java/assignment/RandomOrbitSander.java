@@ -28,9 +28,9 @@ public class RandomOrbitSander {
 
 		Actions myKey = new Actions(driver);
 
-		Action act = myKey.click(categories).moveToElement(target).click().build();
+		Action myAction = myKey.click(categories).moveToElement(target).click().build();
 
-		act.perform();
+		myAction.perform();
 
 		WebElement sanderCheckbox = driver.findElement(By.xpath("//*[@id='filters']/div[1]/ul/div[2]/label/input"));
 		sanderCheckbox.click();

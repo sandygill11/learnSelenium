@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-01T09:27:21 EDT" name="Default suite" finished-at="2025-06-01T09:27:46 EDT" duration-ms="24805">
+  <suite started-at="2025-06-01T11:13:36 EDT" name="Default suite" finished-at="2025-06-01T11:13:46 EDT" duration-ms="9329">
     <groups>
     </groups>
-    <test started-at="2025-06-01T09:27:21 EDT" name="Default test" finished-at="2025-06-01T09:27:46 EDT" duration-ms="24805">
-      <class name="assignment.RandomOrbitSander">
-        <test-method signature="OrbitSander()[pri:0, instance:assignment.RandomOrbitSander@4d9e68d0]" started-at="2025-06-01T09:27:21 EDT" name="OrbitSander" finished-at="2025-06-01T09:27:46 EDT" duration-ms="24765" status="PASS">
+    <test started-at="2025-06-01T11:13:36 EDT" name="Default test" finished-at="2025-06-01T11:13:46 EDT" duration-ms="9329">
+      <class name="mytests.DragAndDrop">
+        <test-method signature="testDragAndDrop()[pri:0, instance:mytests.DragAndDrop@4d9e68d0]" started-at="2025-06-01T11:13:36 EDT" name="testDragAndDrop" finished-at="2025-06-01T11:13:46 EDT" duration-ms="9291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrbitSander -->
-      </class> <!-- assignment.RandomOrbitSander -->
+        </test-method> <!-- testDragAndDrop -->
+      </class> <!-- mytests.DragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
