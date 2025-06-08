@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mytests.DragAndDrop">
+      <class name="assignment.WindowHandlesAssi">
         <methods>
-          <include name="testDragAndDrop"/>
+          <include name="WindowHandles"/>
         </methods>
-      </class> <!-- mytests.DragAndDrop -->
+      </class> <!-- assignment.WindowHandlesAssi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

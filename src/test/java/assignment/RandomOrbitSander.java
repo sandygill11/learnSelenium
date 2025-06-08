@@ -18,7 +18,7 @@ public class RandomOrbitSander {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		// driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get("https://practicesoftwaretesting.com");
 
 		WebElement categories = driver.findElement(By.linkText("Categories"));
@@ -35,7 +35,6 @@ public class RandomOrbitSander {
 		WebElement sanderCheckbox = driver.findElement(By.xpath("//*[@id='filters']/div[1]/ul/div[2]/label/input"));
 		sanderCheckbox.click();
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		WebElement randomOrbitSander = driver
 				.findElement(By.xpath("/html/body/app-root/div/app-category/div[2]/div[2]/div[1]/a[4]"));

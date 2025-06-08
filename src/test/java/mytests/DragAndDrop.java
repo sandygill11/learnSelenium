@@ -3,6 +3,7 @@ package mytests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import org.openqa.selenium.WebDriver;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -15,7 +16,7 @@ public class DragAndDrop {
 	@Test
 	public void testDragAndDrop() {
 		
-	ChromeDriver driver = new ChromeDriver();
+	WebDriver driver = new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	driver.manage().window().maximize();
 	
