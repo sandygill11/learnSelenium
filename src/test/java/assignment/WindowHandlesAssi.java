@@ -28,16 +28,20 @@ public class WindowHandlesAssi {
 				System.out.println(handle);
 
 				if (!handle.equals(parentWindow)) {
+					
 					driver.switchTo().window(handle);
 
 					headingText = driver.findElement(By.id("sampleHeading")).getText();
 					Assert.assertEquals(headingText, "This is a sample page");
+				
 				}
-
+				
 			}
+			
 
 			driver.switchTo().window(parentWindow);
 		}
+
 
 		driver.findElement(By.id("messageWindowButton")).click();
 

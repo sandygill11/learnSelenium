@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-08T16:42:16 EDT" name="Default suite" finished-at="2025-06-08T16:42:24 EDT" duration-ms="7449">
+  <suite started-at="2025-06-08T20:12:08 EDT" name="Default suite" finished-at="2025-06-08T20:12:41 EDT" duration-ms="32729">
     <groups>
     </groups>
-    <test started-at="2025-06-08T16:42:16 EDT" name="Default test" finished-at="2025-06-08T16:42:24 EDT" duration-ms="7449">
-      <class name="assignment.HeadingCheck">
-        <test-method signature="headingCheck()[pri:0, instance:assignment.HeadingCheck@4d9e68d0]" started-at="2025-06-08T16:42:16 EDT" name="headingCheck" finished-at="2025-06-08T16:42:24 EDT" duration-ms="7412" status="PASS">
+    <test started-at="2025-06-08T20:12:08 EDT" name="Default test" finished-at="2025-06-08T20:12:41 EDT" duration-ms="32729">
+      <class name="assignment.WindowsHandlesTest">
+        <test-method signature="WindowHandles()[pri:0, instance:assignment.WindowsHandlesTest@4d9e68d0]" started-at="2025-06-08T20:12:08 EDT" name="WindowHandles" finished-at="2025-06-08T20:12:41 EDT" duration-ms="32681" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- headingCheck -->
-      </class> <!-- assignment.HeadingCheck -->
+        </test-method> <!-- WindowHandles -->
+      </class> <!-- assignment.WindowsHandlesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
